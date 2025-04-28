@@ -22,7 +22,7 @@ pygame.display.set_caption("Monkey Catching Coconuts")
 clock = pygame.time.Clock()
 
 # Load monkey image
-monkey_img = pygame.image.load("OIP.jpg")  # Adjusted path for monkey image
+monkey_img = pygame.image.load("Monkey.jpg")  # Adjusted path for monkey image
 monkey_img = pygame.transform.scale(monkey_img, (80, 80))
 
 # Load coconut image
